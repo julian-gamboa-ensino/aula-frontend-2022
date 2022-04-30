@@ -1,1 +1,7 @@
-# aula-frontend-2022
+# aula-frontend-2022Nesta 
+
+
+Nesta versão inicial do curso de Front-end vamos usar diversas tecnologias e treinar em diversos [laboratórios](https://replit.com/@JulianJunho2020?path=folder/curso_udemy_WEB)
+
+
+
