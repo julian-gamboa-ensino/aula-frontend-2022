@@ -84,7 +84,7 @@ keyEvent(event: KeyboardEvent) {
 
     if((this.indice_imagen+1)<this.maximo_indice_imagen)
     {
-      this.indice_imagen++;    
+      this.indice_imagen+=2;    
     }    
   }
 
@@ -92,7 +92,7 @@ keyEvent(event: KeyboardEvent) {
 
     if(this.indice_imagen>0)
     {
-      this.indice_imagen--;
+      this.indice_imagen-=2;
     }    
   }
 //Verticais para acelerar a navegação, em passos de 10

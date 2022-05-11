@@ -1,0 +1,258 @@
+<header>
+    <div class="bg-dark collapse" id="navbarHeader" style="">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About</h4>
+            <p class="text-muted">
+Header
+
+            </p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Follow on Twitter</a></li>
+              <li><a href="#" class="text-white">Like on Facebook</a></li>
+              <li><a href="#" class="text-white">Email me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+          <strong>Album</strong>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  
+    <!--END Header do Boostrap--------->          
+<main role="main">
+    <div class="album py-5 bg-light">
+    <div class="container">          
+    <!--ROW. Inicio---------> 
+    <div class="row">
+    <!--Elemento da Matriz---------> 
+    <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <!--Image--------->  
+    
+    <app-comparador-imagens 
+    
+    id="imagem-1"
+    
+    fonte_image_1="{{imagem[indice_imagen]}}"
+    
+    fonte_image_2="{{imagem[indice_imagen+1]}}"
+    
+    ></app-comparador-imagens>
+    
+    <app-janela-modal-classificar 
+    nome_imagem="{{imagem[indice_imagen]}}"
+    etiqueta_imagem="{{etiqueta}}" >  
+    </app-janela-modal-classificar>
+    
+    </div>
+    </div>
+    <!--COL------>           
+    <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <!--Image--------->          
+    <app-comparador-imagens 
+    
+    id="imagem-2"
+    
+    fonte_image_1="{{imagem[indice_imagen+2]}}"
+    
+    fonte_image_2="{{imagem[indice_imagen+3]}}"
+    
+    ></app-comparador-imagens>
+              <app-janela-modal-classificar 
+              nome_imagem="{{imagem[indice_imagen]}}"
+              etiqueta_imagem="{{etiqueta}}" >  
+              </app-janela-modal-classificar>
+            </div>
+    </div>
+    <!--END: COL. ------>      
+    <!--COL. ------>           
+    <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <!--Image--------->          
+    <app-comparador-imagens 
+    
+    id="imagem-3"
+    
+    fonte_image_1="{{imagem[indice_imagen+4]}}"
+    
+    fonte_image_2="{{imagem[indice_imagen+5]}}"
+    
+    ></app-comparador-imagens>
+      <app-janela-modal-classificar 
+      nome_imagem="{{imagem[indice_imagen]}}"
+      etiqueta_imagem="{{etiqueta}}" >  
+      </app-janela-modal-classificar>
+    </div>
+    </div>
+    <!--END: COL. ------>      
+    </div>  
+    <!--END: ROW. ------>
+    
+    
+    <!--ROW. Inicio---------> 
+    <div class="row">
+    <!--Elemento da Matriz---------> 
+    <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <!--Image--------->          
+    <app-comparador-imagens 
+    
+    id="imagem-4"
+    
+    fonte_image_1="{{imagem[indice_imagen+6]}}"
+    
+    fonte_image_2="{{imagem[indice_imagen+7]}}"
+    
+    ></app-comparador-imagens>
+    
+              <app-janela-modal-classificar 
+              nome_imagem="{{imagem[indice_imagen]}}"
+              etiqueta_imagem="{{etiqueta}}" >  
+              </app-janela-modal-classificar>
+                    </div>
+    </div>
+    <!--COL. ------>           
+    <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <!--Image--------->          
+    <app-comparador-imagens 
+    
+    id="imagem-5"
+    
+    fonte_image_1="{{imagem[indice_imagen+8]}}"
+    
+    fonte_image_2="{{imagem[indice_imagen+9]}}"
+    
+    ></app-comparador-imagens>
+    
+              <app-janela-modal-classificar 
+              nome_imagem="{{imagem[indice_imagen]}}"
+              etiqueta_imagem="{{etiqueta}}" >  
+              </app-janela-modal-classificar>
+            </div>
+    </div>
+    <!--END: COL. ------>      
+    <!--COL. ------>           
+    <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <!--Image--------->          
+    <app-comparador-imagens 
+    
+    id="imagem-6"
+    
+    fonte_image_1="{{imagem[indice_imagen+10]}}"
+    
+    fonte_image_2="{{imagem[indice_imagen+11]}}"
+    
+    ></app-comparador-imagens>
+    
+      <app-janela-modal-classificar 
+      nome_imagem="{{imagem[indice_imagen]}}"
+      etiqueta_imagem="{{etiqueta}}" >  
+      </app-janela-modal-classificar>
+    </div>
+    </div>
+    <!--END: COL. ------>      
+    </div>  
+    <!--END: ROW. ------>
+    
+    
+    
+    <!--ROW. Inicio---------> 
+    <div class="row">
+    <!--Elemento da Matriz---------> 
+    <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <!--Image--------->          
+    <app-comparador-imagens 
+    
+    id="imagem-7"
+    
+    fonte_image_1="{{imagem[indice_imagen+12]}}"
+    
+    fonte_image_2="{{imagem[indice_imagen+13]}}"
+    
+    ></app-comparador-imagens>
+              <app-janela-modal-classificar 
+              nome_imagem="{{imagem[indice_imagen]}}"
+              etiqueta_imagem="{{etiqueta}}" >  
+              </app-janela-modal-classificar>
+            </div>
+    </div>
+    <!--COL. ------>           
+    <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <!--Image--------->          
+    <app-comparador-imagens 
+    
+    id="imagem-8"
+    
+    fonte_image_1="{{imagem[indice_imagen+14]}}"
+    
+    fonte_image_2="{{imagem[indice_imagen+15]}}"
+    
+    ></app-comparador-imagens>
+              <app-janela-modal-classificar 
+              nome_imagem="{{imagem[indice_imagen]}}"
+              etiqueta_imagem="{{etiqueta}}" >  
+              </app-janela-modal-classificar>
+            </div>
+    </div>
+    <!--END: COL. ------>      
+    <!--COL. ------>           
+    <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <!--Image--------->          
+    <app-comparador-imagens 
+    
+    id="imagem-9"
+    
+    fonte_image_1="{{imagem[indice_imagen+16]}}"
+    
+    fonte_image_2="{{imagem[indice_imagen+17]}}"
+    
+    ></app-comparador-imagens>
+      <app-janela-modal-classificar 
+      nome_imagem="{{imagem[indice_imagen]}}"
+      etiqueta_imagem="{{etiqueta}}" >  
+      </app-janela-modal-classificar>
+    </div>
+    </div>
+    <!--END: COL. ------>      
+    </div>  
+    <!--END: ROW. ------>
+    </div>
+    </div>
+  </main>
+  
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Back to top</a>
+      </p>
+      <p class="mb-1">Album example is © Bootstrap, but please download and customize it for yourself!</p>
+      <p class="mb-0">New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">getting started guide</a>.</p>
+    </div>
+  </footer>
+  
+  
+      <script src="maio03_files/bootstrap.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+  
+

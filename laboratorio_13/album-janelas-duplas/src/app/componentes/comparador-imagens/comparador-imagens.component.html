@@ -1,10 +1,9 @@
-
-<div class="img-comp-container" >
+<div class="img-comp-container" class="card-img-top" alt="Image 1" style="height: 225px; width: 100%; display: block;" >
    
-    <div class="img-comp-img">
-      <img  width="212" height="317" [src]="fonte_image_1">
-    </div>
-    <div class="img-comp-img img-comp-overlay">
-      <img  width="212" height="317" [src]="fonte_image_2">
-    </div>
+  <div class="img-comp-img" [id]="id_image_1" >
+    <img  [src]="fonte_image_1" class="card-img-top" alt="Image 1" style="height: 225px; width: 100%; display: block;" >
+  </div>
+  <div class="img-comp-img img-comp-overlay" [id]="id_image_2"  >
+    <img  [src]="fonte_image_2" class="card-img-top" alt="Image 2" style="height: 225px; width: 100%; display: block;"  >
+  </div>
 </div>

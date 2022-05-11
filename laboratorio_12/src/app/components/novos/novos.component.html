@@ -44,15 +44,24 @@ Demo em Heroku<br>
 <!--Elemento da Matriz---------> 
 <div class="col-md-4">
 <div class="card mb-4 box-shadow">
-<!--Image--------->          
-          <img id="imagem-1" src="{{imagem[indice_imagen]}}"
-          class="card-img-top" alt="Image 1" style="height: 225px; width: 100%; display: block;" 
-           >
+<!--Image--------->  
+
+<app-comparador-imagens 
+
+id="imagem-1"
+
+fonte_image_1="{{imagem[indice_imagen]}}"
+
+fonte_image_2="{{imagem[indice_imagen+1]}}"
+
+></app-comparador-imagens>
 
 <app-janela-modal-classificar 
 nome_imagem="{{imagem[indice_imagen]}}"
 etiqueta_imagem="{{etiqueta}}" >  
 </app-janela-modal-classificar>
+
+<app-botao-prioridade></app-botao-prioridade>
 
 </div>
 </div>
@@ -60,9 +69,15 @@ etiqueta_imagem="{{etiqueta}}" >
 <div class="col-md-4">
 <div class="card mb-4 box-shadow">
 <!--Image--------->          
-          <img id="imagem-2" src="{{imagem[indice_imagen+1]}}"
-          class="card-img-top" alt="Image 2" style="height: 225px; width: 100%; display: block;" 
-          >
+<app-comparador-imagens 
+
+id="imagem-2"
+
+fonte_image_1="{{imagem[indice_imagen+2]}}"
+
+fonte_image_2="{{imagem[indice_imagen+3]}}"
+
+></app-comparador-imagens>
           <app-janela-modal-classificar 
           nome_imagem="{{imagem[indice_imagen]}}"
           etiqueta_imagem="{{etiqueta}}" >  
@@ -74,9 +89,15 @@ etiqueta_imagem="{{etiqueta}}" >
 <div class="col-md-4">
 <div class="card mb-4 box-shadow">
 <!--Image--------->          
-  <img id="imagem-3" src="{{imagem[indice_imagen+2]}}"
-  class="card-img-top" alt="Image 3" style="height: 225px; width: 100%; display: block;" 
-  >
+<app-comparador-imagens 
+
+id="imagem-3"
+
+fonte_image_1="{{imagem[indice_imagen+4]}}"
+
+fonte_image_2="{{imagem[indice_imagen+5]}}"
+
+></app-comparador-imagens>
   <app-janela-modal-classificar 
   nome_imagem="{{imagem[indice_imagen]}}"
   etiqueta_imagem="{{etiqueta}}" >  
@@ -94,9 +115,16 @@ etiqueta_imagem="{{etiqueta}}" >
 <div class="col-md-4">
 <div class="card mb-4 box-shadow">
 <!--Image--------->          
-          <img id="imagem-4" src="{{imagem[indice_imagen+3]}}"
-          class="card-img-top" alt="Image 4" style="height: 225px; width: 100%; display: block;" 
-          >
+<app-comparador-imagens 
+
+id="imagem-4"
+
+fonte_image_1="{{imagem[indice_imagen+6]}}"
+
+fonte_image_2="{{imagem[indice_imagen+7]}}"
+
+></app-comparador-imagens>
+
           <app-janela-modal-classificar 
           nome_imagem="{{imagem[indice_imagen]}}"
           etiqueta_imagem="{{etiqueta}}" >  
@@ -107,9 +135,16 @@ etiqueta_imagem="{{etiqueta}}" >
 <div class="col-md-4">
 <div class="card mb-4 box-shadow">
 <!--Image--------->          
-          <img id="imagem-5" src="{{imagem[indice_imagen+4]}}"
-          class="card-img-top" alt="Image 5" style="height: 225px; width: 100%; display: block;" 
-          >
+<app-comparador-imagens 
+
+id="imagem-5"
+
+fonte_image_1="{{imagem[indice_imagen+8]}}"
+
+fonte_image_2="{{imagem[indice_imagen+9]}}"
+
+></app-comparador-imagens>
+
           <app-janela-modal-classificar 
           nome_imagem="{{imagem[indice_imagen]}}"
           etiqueta_imagem="{{etiqueta}}" >  
@@ -121,9 +156,16 @@ etiqueta_imagem="{{etiqueta}}" >
 <div class="col-md-4">
 <div class="card mb-4 box-shadow">
 <!--Image--------->          
-  <img id="imagem-6" src="{{imagem[indice_imagen+5]}}"
-  class="card-img-top" alt="Image 6" style="height: 225px; width: 100%; display: block;" 
-  >
+<app-comparador-imagens 
+
+id="imagem-6"
+
+fonte_image_1="{{imagem[indice_imagen+10]}}"
+
+fonte_image_2="{{imagem[indice_imagen+11]}}"
+
+></app-comparador-imagens>
+
   <app-janela-modal-classificar 
   nome_imagem="{{imagem[indice_imagen]}}"
   etiqueta_imagem="{{etiqueta}}" >  
@@ -142,9 +184,15 @@ etiqueta_imagem="{{etiqueta}}" >
 <div class="col-md-4">
 <div class="card mb-4 box-shadow">
 <!--Image--------->          
-          <img id="imagem-7" src="{{imagem[indice_imagen+6]}}"
-          class="card-img-top" alt="Image 7" style="height: 225px; width: 100%; display: block;" 
-          >
+<app-comparador-imagens 
+
+id="imagem-7"
+
+fonte_image_1="{{imagem[indice_imagen+12]}}"
+
+fonte_image_2="{{imagem[indice_imagen+13]}}"
+
+></app-comparador-imagens>
           <app-janela-modal-classificar 
           nome_imagem="{{imagem[indice_imagen]}}"
           etiqueta_imagem="{{etiqueta}}" >  
@@ -155,9 +203,15 @@ etiqueta_imagem="{{etiqueta}}" >
 <div class="col-md-4">
 <div class="card mb-4 box-shadow">
 <!--Image--------->          
-          <img id="imagem-8" src="{{imagem[indice_imagen+7]}}"
-          class="card-img-top" alt="Image 8" style="height: 225px; width: 100%; display: block;" 
-          >
+<app-comparador-imagens 
+
+id="imagem-8"
+
+fonte_image_1="{{imagem[indice_imagen+14]}}"
+
+fonte_image_2="{{imagem[indice_imagen+15]}}"
+
+></app-comparador-imagens>
           <app-janela-modal-classificar 
           nome_imagem="{{imagem[indice_imagen]}}"
           etiqueta_imagem="{{etiqueta}}" >  
@@ -169,9 +223,15 @@ etiqueta_imagem="{{etiqueta}}" >
 <div class="col-md-4">
 <div class="card mb-4 box-shadow">
 <!--Image--------->          
-  <img id="imagem-9" src="{{imagem[indice_imagen+8]}}"
-  class="card-img-top" alt="Image 9" style="height: 225px; width: 100%; display: block;" 
-  >
+<app-comparador-imagens 
+
+id="imagem-9"
+
+fonte_image_1="{{imagem[indice_imagen+16]}}"
+
+fonte_image_2="{{imagem[indice_imagen+17]}}"
+
+></app-comparador-imagens>
   <app-janela-modal-classificar 
   nome_imagem="{{imagem[indice_imagen]}}"
   etiqueta_imagem="{{etiqueta}}" >  

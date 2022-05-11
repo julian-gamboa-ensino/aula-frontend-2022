@@ -10,6 +10,8 @@ import { ListaPastasComponent } from './components/lista-pastas/lista-pastas.com
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { JanelaModalClassificarComponent } from './components/janela-modal-classificar/janela-modal-classificar.component';
 import { SelectClassificadorComponent } from './components/select-classificador/select-classificador.component';
+import { ComparadorImagensComponent } from './components/comparador-imagens/comparador-imagens.component';
+import { BotaoPrioridadeComponent } from './components/botao-prioridade/botao-prioridade.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { SelectClassificadorComponent } from './components/select-classificador/
     NovosComponent,
     ListaPastasComponent,
     JanelaModalClassificarComponent,
-    SelectClassificadorComponent
+    SelectClassificadorComponent,
+    ComparadorImagensComponent,
+    BotaoPrioridadeComponent
   ],
   imports: [
     BrowserModule,

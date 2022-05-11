@@ -9,8 +9,6 @@ import { Component, OnInit, Renderer2,ElementRef,ViewChild, Input} from '@angula
 
 /*************************************************************************
 
-Componente para comparar duas (02) imagens:
-
 
 O componente pai (que contem o visual Boostrap) passará as fontes da imagem para este elemento. 
 Lembrar do método (https://angular.io/guide/inputs-outputs) no qual se usam os @decorators 
