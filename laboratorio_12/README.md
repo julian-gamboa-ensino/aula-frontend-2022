@@ -1,6 +1,10 @@
 # FronEnd feito em Angular
 
+# Aprimoramentos:
 
+Instalação imediata: 
+
+npx -p @angular/cli ng new foto-comentario-simples
 
 
 # FotosComentarios
