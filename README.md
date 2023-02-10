@@ -15,6 +15,7 @@ laboratorio_11
 
 + **laboratorio_13:** neste caso será possível usar o [exemplo de BootStrap](https://getbootstrap.com/docs/5.1/examples/album/) juntos com diversos componentes que criados para ilustre diversas capacidades do framework Angular:
    - Comparador de Imagens: que permite comparar duas (02)  imagens usando apenas o movimento de um cursor.
++ **laboratorio_13:**  https://github.com/julian-gamboa-ensino/foto-comentario-simples
 
 
 
